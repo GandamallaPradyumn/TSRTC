@@ -5,10 +5,6 @@ from groq import Groq
 st.set_page_config(page_title="KMM LLM Trend Analyzer", layout="wide")
 # ✅ Securely load API key from secrets.toml
 
-
-
-
-
 st.title("📈 Excel Trend Analyzer using LLM")
 
 uploaded_file = st.file_uploader("Upload your KMM Excel file", type=["xlsx"])
